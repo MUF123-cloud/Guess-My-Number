@@ -7,9 +7,9 @@
 
 /* Background and Font */
 body {
-    background-color: #0d0d0d; /* Dark background for a gaming feel */
+    background-color: #0d0d0d;
     color: #fff;
-    font-family: 'Press Start 2P', cursive; /* Gaming style font */
+    font-family: 'Press Start 2P', cursive; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,18 +25,18 @@ header {
 
 .guessnm {
     font-size: 3rem;
-    color: #FFD700; /* Neon green for energy */
+    color: #FFD700; 
 }
 
 .between {
-    color: #FF4500; /* Bright orange for contrast */
+    color: #FF4500; 
     font-size: 1.2rem;
     margin: 0.5rem 0;
 }
 
 .number {
     font-size: 4rem;
-    color: #FFD700; /* Gold for emphasis */
+    color: #FFD700;
     background-color: #333;
     width: 100px;
     height: 100px;
@@ -57,18 +57,18 @@ button {
     margin: 0.5rem;
     border-radius: 8px;
     color: #fff;
-    background: linear-gradient(145deg, #ff007f, #ff7700); /* Gradient for a dynamic look */
+    background: linear-gradient(145deg, #ff007f, #ff7700); 
     text-transform: uppercase;
     transition: background 0.3s ease;
 }
 
 button:hover {
     background: linear-gradient(145deg, #ff7700, #ff007f);
-    transform: scale(1.05); /* Slight grow effect on hover */
+    transform: scale(1.05); 
 }
 
 .btn-again {
-    background-color: #00CED1; /* Aqua color */
+    background-color: #00CED1; 
     margin-top: 1rem;
 }
 
@@ -82,8 +82,7 @@ button:hover {
     background-color: #333;
     color: #fff;
 }
-
-/* Message and Score */
+
 .message, .label-score, .label-highscore {
     font-size: 1.2rem;
     margin: 0.5rem 0;
@@ -92,8 +91,7 @@ button:hover {
 .message {
     color: #00FF00; /* Green for success messages */
 }
-
-/* Layout Adjustments */
+
 main {
     display: flex;
     align-items: center;
